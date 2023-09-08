@@ -453,7 +453,11 @@ p {
 
 #hero .bg_video{
   position: absolute; 
-  inset: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   z-index: -100;
   background: black repeat scroll center center/cover;
 }
