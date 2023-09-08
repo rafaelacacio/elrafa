@@ -87,7 +87,7 @@ p {
 .btn:hover,
 .btn:focus {
   color:#fff;
-  background: blue;
+  background: mediumspringgreen;
 }
 
 .padDiv {
@@ -174,7 +174,7 @@ p {
 }
 
 .back-to-top:hover {
-  background: fuchsia;
+  background: mediumspringgreen;
   color: #fff;
 }
 
@@ -272,7 +272,7 @@ p {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color:darkturquoise;
+  color:mediumspringgreen;
 }
 
 .navbar .dropdown ul {
@@ -453,11 +453,7 @@ p {
 
 #hero .bg_video{
   position: absolute; 
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  inset: 0;
   z-index: -100;
   background: black repeat scroll center center/cover;
 }
@@ -492,7 +488,7 @@ p {
 .hero-content .list-social li {
   float: left;
   margin-right: 20px;
-  text-shadow: 2px 2px 4px fuchsia;
+  text-shadow: 2px 2px 4px mediumspringgreen;
 }
 
 .hero-content .list-social li i {
@@ -501,7 +497,7 @@ p {
 }
 
 .hero-content .list-social li i:hover {
-  color:greenyellow;
+  color:mediumspringgreen;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -595,7 +591,7 @@ p {
   font-family: "Playfair Display", serif;
   font-size: 28px;
   text-align: left;
-  text-shadow: 2px 2px 4px lightseagreen;
+  text-shadow: 2px 2px 4px mediumspringgreen;
 }
 
 #about .about-descr .separator {
@@ -685,7 +681,7 @@ p {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color:orangered;
+  color:mediumspringgreen;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -733,7 +729,7 @@ p {
 
 #portfolio .portfolio-item .portfolio-info .preview-link:hover,
 #portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: blue;
+  color: mediumspringgreen;
 }
 
 #portfolio .portfolio-item .portfolio-info .details-link {
@@ -1119,7 +1115,7 @@ blockquote {
 }
 
 #footer .socials-media ul li a:hover {
-  color: blue;
+  color: mediumspringgreen;
   transition: all 0.5s ease-in-out 0s;
 }
 
