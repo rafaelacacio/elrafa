@@ -169,9 +169,9 @@
     new Typed('.typed', {
       strings: typed_strings,
       loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000
+      typeSpeed: 120,
+      backSpeed: 80,
+      backDelay: 3000
     });
   }
 
@@ -179,10 +179,10 @@
    * Testimonials slider
    */
   new Swiper('.services-slider', {
-    speed: 600,
+    speed: 900,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 10000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
@@ -247,7 +247,7 @@
    * Portfolio details slider
    */
   new Swiper('.portfolio-details-slider', {
-    speed: 400,
+    speed: 800,
     loop: true,
     autoplay: {
       delay: 5000,
